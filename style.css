@@ -1,0 +1,86 @@
+.box{
+    width: 800px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    background-color: white;
+    position: relative;
+
+}
+body{
+    background-color: #edf2f8;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+border-radius: 50%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+
+}
+
+.txt{
+    display: grid;
+    place-content: center;
+    grid-template-rows: 50px 50px;
+
+}
+.profile{
+    display: grid;
+    grid-template-columns: 60px 150px;
+}
+.right{
+    padding: 30px;
+}
+p2, h2{
+    color: rgb(118, 118, 118);
+}
+p1{
+    color: rgb(46, 46, 46);
+}
+.share{
+    width: 20px ;
+    height: 20px;
+    background-color: white;
+}
+.footer{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.hover{
+    display: grid;
+    grid-template-columns: 55px 30px 30px 30px;
+    background-color: rgb(31, 63, 64);
+    width: 150px;
+    padding: 10px;
+    height: 35px;
+    place-content: center;
+    border-radius: 15px;
+    position: absolute;
+    left: 630px;
+    top: 180px;
+    display: none;
+}
+.outof{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    display: none;
+}
+.button:hover .hover, .outof{
+    
+    display: block;
+    display: grid;
+    grid-template-columns: 55px 30px 30px 30px;
+}
